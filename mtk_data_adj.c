@@ -105,6 +105,9 @@ int main()
 		return -1;
 	}
 
+	printf("MTK EBR1 and EBR2 adjustment tool. V1.0\n"
+			"     by Echo <echo.xjtu@gmail.com>\n\n", B>>(20-9));
+
 #if 0
 	printf("this is ebr1...\n");
 	show_buf(ebr1_buf);
